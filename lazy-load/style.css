@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+li:not(:last-child){
+  margin-bottom: 500px;
+}
+
+li img{
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lazy load</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="main">
+    <ul>
+      <li>
+        <picture>
+          <source data-srcset="images/1.webp" srcset="images/1x1.webp" type="image/webp">
+          <img data-src="images/1.jpg" src="images/1x1.webp" alt="">
+        </picture>
+      </li>
+      
+      <li>
+        <picture>
+          <source data-srcset="images/2.webp" srcset="images/1x1.webp" type="image/webp">
+          <img data-src="images/2.jpg" src="images/1x1.webp" alt="">
+        </picture>
+      </li>
+      
+      <li>
+        <picture>
+          <source data-srcset="images/3.webp" srcset="images/1x1.webp" type="image/webp">
+          <img data-src="images/3.jpg" src="images/1x1.webp" alt="">
+        </picture>
+      </li>
+      
+      <li>
+        <picture>
+          <source data-srcset="images/4.webp" srcset="images/1x1.webp" type="image/webp">
+          <img data-src="images/4.jpg" src="images/1x1.webp" alt="">
+        </picture>
+      </li>
+      
+      <li>
+        <picture>
+          <source data-srcset="images/5.webp" srcset="images/1x1.webp" type="image/webp">
+          <img data-src="images/5.jpg" src="images/1x1.webp" alt="">
+        </picture>
+      </li>
+    </ul>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
